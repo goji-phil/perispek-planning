@@ -10,28 +10,28 @@ See: .planning/PROJECT.md (updated 2026-02-19)
 ## Current Position
 
 Phase: 1 of 6 (Foundation)
-Plan: 0 of TBD in current phase
-Status: Ready to plan
-Last activity: 2026-02-19 — Roadmap created, ready to begin Phase 1 planning
+Plan: 1 of 5 in current phase
+Status: In progress
+Last activity: 2026-02-19 — Completed 01-foundation/01-01-PLAN.md (Next.js bootstrap + design tokens)
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [##░░░░░░░░] 5% (1/5 plans in Phase 1 complete)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 0
-- Average duration: —
-- Total execution time: —
+- Total plans completed: 1
+- Average duration: 4 min
+- Total execution time: 4 min
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| - | - | - | - |
+| 01-foundation | 1 of 5 | 4 min | 4 min |
 
 **Recent Trend:**
-- Last 5 plans: —
-- Trend: —
+- Last 5 plans: 4 min
+- Trend: Baseline established
 
 *Updated after each plan completion*
 
@@ -46,10 +46,13 @@ Recent decisions affecting current work:
 - [Init]: Mock data only — no live backend; prototype is for demos
 - [Init]: Next.js as framework — SSR/routing/ecosystem fit for dashboard-heavy app
 - [Init]: Operations manager as primary user — drives KPI/map/insight views
+- [Phase 01-foundation]: Tailwind v4 CSS-first: all design tokens in globals.css @theme, no tailwind.config.ts
+- [Phase 01-foundation]: Risk score scale: CoF/LoF on 0-5 NASSCO scale; (CoF x LoF)/2 = 0-12.5 range; bands at [0-3] low, [3-6] medium, [6-9] high, [9-12.5] critical
+- [Phase 01-foundation]: Design token colors approximated from research (Figma login unavailable); TODO to refine for pixel-perfect fidelity
 
 ### Pending Todos
 
-None yet.
+- Refine globals.css color tokens after Figma login (exact hex values for pixel-perfect fidelity)
 
 ### Blockers/Concerns
 
@@ -58,5 +61,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-19
-Stopped at: Roadmap created. Phase 1 ready to plan.
+Stopped at: Completed 01-foundation/01-01-PLAN.md. Ready to begin 01-02-PLAN.md (sidebar + navigation).
 Resume file: None

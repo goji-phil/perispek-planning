@@ -11,7 +11,7 @@
 
 - [ ] **NAV-01**: User can navigate between Dashboard, Map, System Insights, and Work Orders via sidebar/nav
 - [ ] **NAV-02**: Active section is clearly indicated in navigation
-- [ ] **NAV-03**: App layout is pixel-perfect to Figma (global chrome, typography, color system)
+- [x] **NAV-03**: App layout is pixel-perfect to Figma (global chrome, typography, color system)
 
 ### Dashboard
 
@@ -120,7 +120,7 @@
 |-------------|-------|--------|
 | NAV-01 | Phase 1 | Pending |
 | NAV-02 | Phase 1 | Pending |
-| NAV-03 | Phase 1 | Pending |
+| NAV-03 | Phase 1 | Complete |
 | DATA-01 | Phase 1 | Pending |
 | DATA-02 | Phase 1 | Pending |
 | DATA-03 | Phase 1 | Pending |
