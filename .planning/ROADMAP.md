@@ -30,7 +30,14 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. User can click each nav item (Dashboard, Map, System Insights, Work Orders) and be taken to the correct section, with the active item clearly highlighted
   3. The seeded dataset contains 50-100 assets with GIS coordinates, NASSCO grades, defect codes, risk scores, IoT readings, and 90 days of time-series data — queryable by the frontend
   4. Work order seed data and inspection footage seed data are present and accessible
-**Plans**: TBD
+**Plans**: 5 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Bootstrap Next.js project and Tailwind v4 design token system
+- [ ] 01-02-PLAN.md — App shell: collapsible sidebar, active nav, section page stubs
+- [ ] 01-03-PLAN.md — TypeScript types and 75-asset seed data with KC GIS + IoT time-series
+- [ ] 01-04-PLAN.md — Work order seed data and inspection coverage data
+- [ ] 01-05-PLAN.md — Final build validation and human verification of nav + data layer
 
 ### Phase 2: Dashboard
 **Goal**: Operations managers land on a single view that communicates the health of the entire network at a glance
@@ -95,7 +102,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/TBD | Not started | - |
+| 1. Foundation | 0/5 | Planned | - |
 | 2. Dashboard | 0/TBD | Not started | - |
 | 3. Map View | 0/TBD | Not started | - |
 | 4. Hybrid View + Asset Detail | 0/TBD | Not started | - |
