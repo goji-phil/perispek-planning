@@ -63,11 +63,11 @@
 
 ### Mock Data
 
-- [ ] **DATA-01**: Seeded dataset of ~50–100 assets (mix of pipes, manholes, storm drains) with realistic GIS coordinates
-- [ ] **DATA-02**: Each asset has NASSCO condition data — PACP/MACP grade (1–5), defect codes, 2–3 historical inspection records
-- [ ] **DATA-03**: Each asset has a CoF score, LoF score, and derived risk score (CoF × LoF / 2)
-- [ ] **DATA-04**: IoT-enabled assets have seeded sensor readings — current d/D ratio, flow rate, and 90 days of historical time-series data
-- [ ] **DATA-05**: d/D warning thresholds are set per asset (varying between 0.6–0.85 to demonstrate customization)
+- [x] **DATA-01**: Seeded dataset of ~50–100 assets (mix of pipes, manholes, storm drains) with realistic GIS coordinates
+- [x] **DATA-02**: Each asset has NASSCO condition data — PACP/MACP grade (1–5), defect codes, 2–3 historical inspection records
+- [x] **DATA-03**: Each asset has a CoF score, LoF score, and derived risk score (CoF × LoF / 2)
+- [x] **DATA-04**: IoT-enabled assets have seeded sensor readings — current d/D ratio, flow rate, and 90 days of historical time-series data
+- [x] **DATA-05**: d/D warning thresholds are set per asset (varying between 0.6–0.85 to demonstrate customization)
 - [ ] **DATA-06**: Work order seed data — mix of open, in-progress, and completed orders across asset types
 - [ ] **DATA-07**: Inspection footage seed data aligned to consent decree targets (some periods on-track, some lagging — realistic demo)
 
@@ -121,11 +121,11 @@
 | NAV-01 | Phase 1 | Pending |
 | NAV-02 | Phase 1 | Pending |
 | NAV-03 | Phase 1 | Complete |
-| DATA-01 | Phase 1 | Pending |
-| DATA-02 | Phase 1 | Pending |
-| DATA-03 | Phase 1 | Pending |
-| DATA-04 | Phase 1 | Pending |
-| DATA-05 | Phase 1 | Pending |
+| DATA-01 | Phase 1 | Complete |
+| DATA-02 | Phase 1 | Complete |
+| DATA-03 | Phase 1 | Complete |
+| DATA-04 | Phase 1 | Complete |
+| DATA-05 | Phase 1 | Complete |
 | DATA-06 | Phase 1 | Pending |
 | DATA-07 | Phase 1 | Pending |
 | DASH-01 | Phase 2 | Pending |
