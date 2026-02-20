@@ -49,7 +49,12 @@ Plans:
   3. User can see asset counts by type (pipes, manholes, storm drains) and risk score distribution across low/medium/high/critical bands
   4. User can see a recent activity feed showing the latest inspections, work orders, and sensor triggers
   5. User can see inspection footage progress as a progress bar against the consent decree target for the current week, month, and quarter
-**Plans**: TBD
+**Plans**: 3 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — Design tokens (globals.css) + metric computation module (dashboard.ts)
+- [ ] 02-02-PLAN.md — Reusable dashboard UI components (MetricLargeCard, MetricStateCard, SectionTitle)
+- [ ] 02-03-PLAN.md — Dashboard page assembly (MapPlaceholder, RightColumn, page.tsx) + human verification
 
 ### Phase 3: Map View
 **Goal**: Users can spatially explore the entire asset network, see condition and sensor status at a glance, and click into any asset for a quick preview
@@ -103,7 +108,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 5/5 | Complete ✓ | 2026-02-19 |
-| 2. Dashboard | 0/TBD | Not started | - |
+| 2. Dashboard | 0/3 | Not started | - |
 | 3. Map View | 0/TBD | Not started | - |
 | 4. Hybrid View + Asset Detail | 0/TBD | Not started | - |
 | 5. Work Orders | 0/TBD | Not started | - |
