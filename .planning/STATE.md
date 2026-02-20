@@ -36,6 +36,7 @@ Progress: [##########░░░░░░░░░░] 17% (Phase 1 of 6 complete,
 *Updated after each plan completion*
 
 | Phase 02-dashboard P01 | 7 min | 2 tasks | 2 files |
+| Phase 02-dashboard P02 | 6 min | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -59,10 +60,13 @@ Recent decisions affecting current work:
 - [Phase 02-dashboard/02-01]: Typography tokens omitted from @theme — Tailwind v4 owns --text-* namespace; use arbitrary values (text-[40px]) to avoid shadowing built-in scale
 - [Phase 02-dashboard/02-01]: noSignalCount hardcoded 0 — all seed IoT sensors active; documented in DashboardMetrics interface comment
 - [Phase 02-dashboard/02-01]: Centralised KPI computation pattern — computeDashboardMetrics() computes all metrics once; page component stays thin
+- [Phase 02-dashboard/02-02]: Icons passed as React.ReactNode props (pre-rendered by caller) — keeps card components icon-library agnostic
+- [Phase 02-dashboard/02-02]: All three dashboard card components are Server Components — no client bundle cost for presentational UI
+- [Phase 02-dashboard/02-02]: Dashboard card style: bg-[#27272a] border-[#3f3f46] rounded-[12px] — zinc-800/zinc-700 with 12px radius
 
 ### Pending Todos
 
-None — Phase 1 complete.
+None.
 
 ### Blockers/Concerns
 
@@ -70,6 +74,6 @@ None.
 
 ## Session Continuity
 
-Last session: 2026-02-19
-Stopped at: Completed 02-dashboard/02-01-PLAN.md (design tokens + dashboard metrics module). Ready for 02-02.
+Last session: 2026-02-20
+Stopped at: Completed 02-dashboard/02-02-PLAN.md (MetricLargeCard, MetricStateCard, SectionTitle Server Components). Ready for 02-03 (dashboard page assembly).
 Resume file: None
