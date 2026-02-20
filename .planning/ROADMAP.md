@@ -13,7 +13,7 @@ Six phases that build from a working scaffold with all mock data through each ma
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation** - App shell, navigation, and complete mock dataset seeded
-- [ ] **Phase 2: Dashboard** - System-wide KPI landing view with health, alerts, and consent decree tracking
+- [x] **Phase 2: Dashboard** - System-wide KPI landing view with health, alerts, and consent decree tracking
 - [ ] **Phase 3: Map View** - GIS asset map with NASSCO condition overlays, IoT status, and filters
 - [ ] **Phase 4: Hybrid View + Asset Detail** - Linked map+data panel and full asset drill-down with sensor history
 - [ ] **Phase 5: Work Orders** - Work order creation, listing, and detail view
