@@ -66,7 +66,7 @@ Valid spacing/padding/gap values: **2px · 4px · 6px · 10px · 20px — no oth
 | `--spacing-xs` | 10px | `p-[10px]` / `gap-[10px]` |
 | `--spacing-lg` | 20px | `p-5` / `gap-5` |
 
-All components and pages must use only these values for padding, margin, and gap. Positional properties (`top`, `left`, `right`, `bottom`) and functional offsets (e.g. input icon padding) may deviate only when technically required.
+All components and pages must use only these values for **padding, gap, and margin**. No component should be flush (0px gap) against its container — minimum breathing room is 2px. Positional properties (`top`, `left`, `right`, `bottom`) and functional offsets (e.g. input icon padding) may deviate only when technically required.
 
 ## Key Decisions
 
