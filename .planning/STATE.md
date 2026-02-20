@@ -9,12 +9,12 @@ See: .planning/PROJECT.md (updated 2026-02-19)
 
 ## Current Position
 
-Phase: 1 of 6 (Foundation)
-Plan: 3 of 5 in current phase
-Status: In progress
-Last activity: 2026-02-19 — Completed 01-foundation/01-03-PLAN.md (TypeScript types + 75 asset seed data)
+Phase: 1 of 6 (Foundation) — COMPLETE
+Plan: 5 of 5 in Phase 1 (all done)
+Status: Phase 1 complete — ready for Phase 2
+Last activity: 2026-02-19 — Completed 01-foundation/01-05-PLAN.md (build validation + design system alignment)
 
-Progress: [######░░░░] 30% (3/5 plans in Phase 1 complete, skipping 01-02 per orchestrator)
+Progress: [##########░░░░░░░░░░] 17% (Phase 1 of 6 complete)
 
 ## Performance Metrics
 
@@ -27,7 +27,7 @@ Progress: [######░░░░] 30% (3/5 plans in Phase 1 complete, skipping 01-0
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 01-foundation | 2 of 5 | 16 min | 8 min |
+| 01-foundation | 5 of 5 ✓ | ~40 min | ~8 min |
 
 **Recent Trend:**
 - Last 5 plans: 4 min, 12 min
@@ -52,17 +52,19 @@ Recent decisions affecting current work:
 - [Phase 01-foundation/01-03]: IoTData.enabled typed as literal true for discriminated union narrowing
 - [Phase 01-foundation/01-03]: Fixed reference date 2026-01-15T12:00:00Z for time-series reproducibility
 - [Phase 01-foundation/01-03]: Design token colors approximated from research (Figma login unavailable); TODO to refine for pixel-perfect fidelity
+- [Phase 01-foundation/01-05]: Connected Figma MCP (IDEX x Goji Design System); corrected all tokens — Switzer font, zinc-900 bg, 12px radius, 200px sidebar width
+- [Phase 01-foundation/01-05]: PerispekLogo built from actual SVG assets; sidebar matches nav-drawer/open + nav-drawer/closed specs
 
 ### Pending Todos
 
-- Refine globals.css color tokens after Figma login (exact hex values for pixel-perfect fidelity)
+None — Phase 1 complete.
 
 ### Blockers/Concerns
 
-- Figma access requires login — Claude will need design specs shared as screenshots or exported assets before pixel-perfect implementation can begin
+None.
 
 ## Session Continuity
 
 Last session: 2026-02-19
-Stopped at: Completed 01-foundation/01-03-PLAN.md (TypeScript types + 75 KC asset seed data).
+Stopped at: Phase 1 complete. All 5 plans done, design system aligned to Figma. Ready for Phase 2 (Dashboard).
 Resume file: None

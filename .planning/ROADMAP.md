@@ -12,7 +12,7 @@ Six phases that build from a working scaffold with all mock data through each ma
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation** - App shell, navigation, and complete mock dataset seeded
+- [x] **Phase 1: Foundation** - App shell, navigation, and complete mock dataset seeded
 - [ ] **Phase 2: Dashboard** - System-wide KPI landing view with health, alerts, and consent decree tracking
 - [ ] **Phase 3: Map View** - GIS asset map with NASSCO condition overlays, IoT status, and filters
 - [ ] **Phase 4: Hybrid View + Asset Detail** - Linked map+data panel and full asset drill-down with sensor history
@@ -33,11 +33,11 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 5 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Bootstrap Next.js project and Tailwind v4 design token system
-- [ ] 01-02-PLAN.md — App shell: collapsible sidebar, active nav, section page stubs
-- [ ] 01-03-PLAN.md — TypeScript types and 75-asset seed data with KC GIS + IoT time-series
-- [ ] 01-04-PLAN.md — Work order seed data and inspection coverage data
-- [ ] 01-05-PLAN.md — Final build validation and human verification of nav + data layer
+- [x] 01-01-PLAN.md — Bootstrap Next.js project and Tailwind v4 design token system
+- [x] 01-02-PLAN.md — App shell: collapsible sidebar, active nav, section page stubs
+- [x] 01-03-PLAN.md — TypeScript types and 75-asset seed data with KC GIS + IoT time-series
+- [x] 01-04-PLAN.md — Work order seed data and inspection coverage data
+- [x] 01-05-PLAN.md — Final build validation and human verification of nav + data layer
 
 ### Phase 2: Dashboard
 **Goal**: Operations managers land on a single view that communicates the health of the entire network at a glance
@@ -102,7 +102,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/5 | Planned | - |
+| 1. Foundation | 5/5 | Complete ✓ | 2026-02-19 |
 | 2. Dashboard | 0/TBD | Not started | - |
 | 3. Map View | 0/TBD | Not started | - |
 | 4. Hybrid View + Asset Detail | 0/TBD | Not started | - |
