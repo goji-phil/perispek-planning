@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-02-19)
 
 **Core value:** Operations managers can understand the health of their entire pipe network at a glance and drill into any asset to see condition scores, live sensor readings, and scheduled work — in one place.
-**Current focus:** Phase 1 - Foundation
+**Current focus:** Phase 2 - Dashboard
 
 ## Current Position
 
-Phase: 1 of 6 (Foundation) — COMPLETE
-Plan: 5 of 5 in Phase 1 (all done)
-Status: Phase 1 complete — ready for Phase 2
-Last activity: 2026-02-19 — Completed 01-foundation/01-05-PLAN.md (build validation + design system alignment)
+Phase: 2 of 6 (Dashboard) — IN PROGRESS
+Plan: 2 of 3 in Phase 2 (02-02 complete)
+Status: Phase 2 in progress — 02-02 done, ready for 02-03 (dashboard page assembly)
+Last activity: 2026-02-20 — Completed 02-dashboard/02-02-PLAN.md (MetricLargeCard, MetricStateCard, SectionTitle Server Components)
 
-Progress: [##########░░░░░░░░░░] 17% (Phase 1 of 6 complete)
+Progress: [##########░░░░░░░░░░] 17% (Phase 1 of 6 complete, Phase 2 started)
 
 ## Performance Metrics
 
@@ -35,6 +35,8 @@ Progress: [##########░░░░░░░░░░] 17% (Phase 1 of 6 complete)
 
 *Updated after each plan completion*
 
+| Phase 02-dashboard P01 | 7 min | 2 tasks | 2 files |
+
 ## Accumulated Context
 
 ### Decisions
@@ -54,6 +56,9 @@ Recent decisions affecting current work:
 - [Phase 01-foundation/01-03]: Design token colors approximated from research (Figma login unavailable); TODO to refine for pixel-perfect fidelity
 - [Phase 01-foundation/01-05]: Connected Figma MCP (IDEX x Goji Design System); corrected all tokens — Switzer font, zinc-900 bg, 12px radius, 200px sidebar width
 - [Phase 01-foundation/01-05]: PerispekLogo built from actual SVG assets; sidebar matches nav-drawer/open + nav-drawer/closed specs
+- [Phase 02-dashboard/02-01]: Typography tokens omitted from @theme — Tailwind v4 owns --text-* namespace; use arbitrary values (text-[40px]) to avoid shadowing built-in scale
+- [Phase 02-dashboard/02-01]: noSignalCount hardcoded 0 — all seed IoT sensors active; documented in DashboardMetrics interface comment
+- [Phase 02-dashboard/02-01]: Centralised KPI computation pattern — computeDashboardMetrics() computes all metrics once; page component stays thin
 
 ### Pending Todos
 
@@ -66,5 +71,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-02-19
-Stopped at: Phase 1 complete. All 5 plans done, design system aligned to Figma. Ready for Phase 2 (Dashboard).
+Stopped at: Completed 02-dashboard/02-01-PLAN.md (design tokens + dashboard metrics module). Ready for 02-02.
 Resume file: None

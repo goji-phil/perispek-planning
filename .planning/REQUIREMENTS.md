@@ -15,12 +15,12 @@
 
 ### Dashboard
 
-- [ ] **DASH-01**: User can see an overall system health score representing network-wide asset condition
-- [ ] **DASH-02**: User can see a count of active alerts/anomalies (IoT threshold breaches and critical NASSCO scores)
-- [ ] **DASH-03**: User can see total asset counts by type (pipes, manholes, storm drains)
-- [ ] **DASH-04**: User can see a recent activity feed (latest inspections, work orders, sensor triggers)
-- [ ] **DASH-05**: User can see inspection footage progress vs. consent decree target (linear feet inspected this week/month/quarter as a progress bar)
-- [ ] **DASH-06**: User can see risk score distribution across the network (how many assets are low/medium/high/critical risk)
+- [x] **DASH-01**: User can see an overall system health score representing network-wide asset condition
+- [x] **DASH-02**: User can see a count of active alerts/anomalies (IoT threshold breaches and critical NASSCO scores)
+- [x] **DASH-03**: User can see total asset counts by type (pipes, manholes, storm drains)
+- [x] **DASH-04**: User can see a recent activity feed (latest inspections, work orders, sensor triggers)
+- [x] **DASH-05**: User can see inspection footage progress vs. consent decree target (linear feet inspected this week/month/quarter as a progress bar)
+- [x] **DASH-06**: User can see risk score distribution across the network (how many assets are low/medium/high/critical risk)
 
 ### Map View
 
@@ -128,12 +128,12 @@
 | DATA-05 | Phase 1 | Complete |
 | DATA-06 | Phase 1 | Pending |
 | DATA-07 | Phase 1 | Pending |
-| DASH-01 | Phase 2 | Pending |
-| DASH-02 | Phase 2 | Pending |
-| DASH-03 | Phase 2 | Pending |
-| DASH-04 | Phase 2 | Pending |
-| DASH-05 | Phase 2 | Pending |
-| DASH-06 | Phase 2 | Pending |
+| DASH-01 | Phase 2 | Complete |
+| DASH-02 | Phase 2 | Complete |
+| DASH-03 | Phase 2 | Complete |
+| DASH-04 | Phase 2 | Complete |
+| DASH-05 | Phase 2 | Complete |
+| DASH-06 | Phase 2 | Complete |
 | MAP-01 | Phase 3 | Pending |
 | MAP-02 | Phase 3 | Pending |
 | MAP-03 | Phase 3 | Pending |
