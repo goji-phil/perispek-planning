@@ -36,9 +36,11 @@ Operations managers can understand the health of their entire pipe network at a 
 
 ## Context
 
-- Figma designs exist and will be shared via link — prototype must match them closely
+- **Figma**: https://www.figma.com/design/ZZRoLzpoTNy4kpT1NPLrOS/IDEX-x-Goji----Hi-Fi-for-Perispek?node-id=0-1 — source of truth for all UI; requires Figma login to view
 - NASSCO standards: PACP (pipe) and MACP (manhole) condition grading (1–5 scale, defect codes)
-- IoT data: water depth and flow rate sensors installed in manholes and key pipe junctions
+- IoT data: water depth and flow rate sensors; primary metric is **d/D ratio** (depth-to-diameter, 0.0–1.0 scale; >1.0 = overflow); warning thresholds are customizable per asset
+- **Risk Score** = (CoF × LoF) / 2 — both Consequence of Failure and Likelihood of Failure on a 0.0–5.0 scale; risk score range 0.0–2.5; displayed as numeric + color band
+- **Consent decree tracking**: inspection footage (linear feet) per week/month/quarter vs. regulatory targets — shown as progress bar on dashboard
 - ESRI GIS data is the source of asset geometries and attributes; will be seeded as mock data for prototype
 - Primary demo audience: operations managers at wastewater utilities
 - Engineers/analysts are a secondary audience considered post-MVP
@@ -49,7 +51,22 @@ Operations managers can understand the health of their entire pipe network at a 
 - **Map Library**: Esri ArcGIS Maps SDK for JavaScript — native fit for ESRI data format
 - **Data**: Mock/seeded only — no live backend integrations in prototype
 - **Fidelity**: Pixel-perfect to Figma — designs are the source of truth for UI
-- **Figma Access**: Designs shared via Figma link (to be provided before phase planning begins)
+- **Figma Access**: https://www.figma.com/design/ZZRoLzpoTNy4kpT1NPLrOS/IDEX-x-Goji----Hi-Fi-for-Perispek?node-id=0-1 (requires Figma login)
+
+## Design Standards
+
+### Spacing System
+Valid spacing/padding/gap values: **2px · 4px · 6px · 10px · 20px — no other values.**
+
+| Token | Value | Tailwind |
+|-------|-------|----------|
+| `--spacing-5xs` | 2px | `[2px]` |
+| `--spacing-4xs` | 4px | `p-1` / `gap-1` |
+| `--spacing-3xs` | 6px | `p-1.5` / `gap-1.5` |
+| `--spacing-xs` | 10px | `p-[10px]` / `gap-[10px]` |
+| `--spacing-lg` | 20px | `p-5` / `gap-5` |
+
+All components and pages must use only these values for padding, margin, and gap. Positional properties (`top`, `left`, `right`, `bottom`) and functional offsets (e.g. input icon padding) may deviate only when technically required.
 
 ## Key Decisions
 
